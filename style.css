@@ -6,15 +6,14 @@ body {
     font-family: 'Outfit'
 }
 
-.box {
-    max-height: 1440px;
+main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 20px);
+    height: calc(100vh - 20px); /* vh significa 100% da altura disponivel */
 }
 
-.container {
+.box {
     border-radius: 20px;
     background-color: #fff;
     width: 320px;
@@ -31,21 +30,24 @@ body {
     cursor: pointer;
 }
 
-h3 {
+.title {
     text-align: center;
-    line-height: 22px;
+    line-height: 24px;
     color: hsl(218, 44%, 22%);
-    font-size: 20px;
+    font-size: 1.28rem; /* rem ("root em") é o tamanho de fonte do elemento-raiz do documento, 16px é o padrão do rem, para saber o valor do px, basta dividir o px pelo valor do rem */
+    font-weight: 700;
 }
+
+
 
 p {
     text-align: center;
     color: hsl(220, 15%, 55%);
-    font-size: 15px;
+    
 }
 
 .attribution { 
-    font-size: 11px;
+    font-size: 0.6875rem;
     text-align: center; 
 }
 .attribution a { 
@@ -58,12 +60,8 @@ p {
         height: 535px;
     }
 
-    h3 {
-        font-size: 25px;
-        line-height: 30px;
+    .title {
+        font-size: 1.4rem;
     }
 
-    p {
-        font-size: 18px;
-    }
 }
