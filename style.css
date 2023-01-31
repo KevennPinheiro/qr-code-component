@@ -21,6 +21,7 @@ main {
     background-color: #fff;
     width: 320px;
     height: 500px;
+    transition: all 0.2s linear;
 }
 
 .box:hover {
