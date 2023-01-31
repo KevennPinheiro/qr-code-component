@@ -1,4 +1,5 @@
-Kevenn Pinheiro {alterado}
+##DESENVOLVEDOR
+Kevenn Pinheiro
 
 ---
 
@@ -14,7 +15,7 @@ Exclusão da tag p no media
 
 ---
 
-O que falta alterar:
-adicionar um img e retirar o background-imagem.
+Retirada do background-image, adição do img
+adição do box-shadow
 
 ---
