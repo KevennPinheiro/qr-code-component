@@ -15,7 +15,7 @@ Exclusão da tag p no media
 
 ---
 
-Retirada do background-image, adição do img
+Retirada do background-image, adição do img.
 adição do box-shadow
 
 ---
